@@ -1,0 +1,99 @@
+body{
+    background: rgb(96, 94, 211);
+    font: 16px "Arial";
+}
+
+fieldset{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2px solid #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #050225;
+    color: #999;
+}
+
+fieldset legend{
+    text-align: center;
+    width: 50%;
+}
+
+fieldset legend img {
+    width: 99%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#comecar {
+    text-align: center;
+    padding: 10%;
+}
+
+#btn-comecar {
+    padding: 10px;
+    background: rgb(49, 3, 49);
+    border: 5px solid lightskyblue;
+    border-radius: 10px;
+    color: #ccc;
+    font-family: Georgia, Times;
+    font-size: medium;
+}
+
+.pergunta {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+}
+
+.pergunta p {
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pergunta button {
+    text-align: center;
+    padding: 10px;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+.pergunta button:hover {
+    background: rgb(0, 255, 21);
+    color: rgb(3, 44, 6);
+}
+
+.pergunta ul{
+    list-style: none;
+}
+
+.pergunta ul li span{
+    border-radius: 50%;
+    background: #999;
+    color:#fff;
+    padding: 3px 8px 3px 8px;
+}
+
+.pergunta ul li label {
+    display: block;
+    margin:5px 0 5px 0;
+    border:1px solid #000;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pergunta ul li label input{
+    width: 1px;
+    height: 1px;
+}
+
+label:hover {
+    background: lightgreen;
+    color: black;
+}
